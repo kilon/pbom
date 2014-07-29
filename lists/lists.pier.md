@@ -2,16 +2,16 @@
 
 ##Lists
 
-You may think that since we got integers and floats and strings we have pretty much finished with Data types\. However python is a huge programming language, there is ton of stuff available \. Of course the goal of this book is not to teach you all of python just enough to get you started and working with blender so we will keep things as simple as possible\. However there are still some types that even though they are not absolutely necessary for making a working program they are absolutely necessary for keeping code simple and short\. One of those types is list\.
+You may think that since we got integers and floats and strings we have pretty much finished with Data types\. However python is a huge programming language, there is ton of stuff available \. Of course the goal of this book is not to teach you all of python, just enough to get you started and working with blender so we will keep things as simple as possible\. However there are still some types that even though they are not absolutely necessary for making a working program they are absolutely necessary for keeping code simple and short\. One of those types is list\.
 
 I can hear you wondering whether a variable can be assigned not one but several values\. Lists do exactly that\. Actually lists work very similarly to strings\. Lets see how we assign a list to variable\.
 
 
 
 ```python
-a = \[ 1, 2, "hello" ,4 , 5.0 \]
+a = [ 1, 2, "hello" ,4 , 5.0 ]
 print(a)
-print(a\[2\])
+print(a[2])
 ```
 
 
@@ -24,7 +24,7 @@ ok lets do the following
 
 ```python
 a = "hello"
-a\[0\] = "y"
+a[0] = "y"
 ```
 
 
@@ -59,13 +59,13 @@ Lets see some cool functions about lists
 
 
 ```python
-names  = \["john" ,"mary" ,"peter" \]
+names  = ["john" ,"mary" ,"peter" ]
 names.append("jane")
 print(names)
 Append is member function of the object list , and of course it appends another index to the list. Observe that we use the dot to access the function. We can also split lists.
 
-names  = \["john" ,"mary" ,"peter" \]
-names = names\[0:1\]
+names  = ["john" ,"mary" ,"peter" ]
+names = names[0:1]
 print(names)
 ```
 
@@ -78,10 +78,10 @@ Another cool thing about lists is that they can be multidimensional , there is n
 
 
 ```python
-data3d = \[ \[\["x1"\],\["x2"\],\["x3"\]\] ,
-           \[\["y1"\],\["y2"\],\["y3"\]\] ,
-           \[\["z1"\],\["z2"\],\["z3"\]\] \]
-print(data3d\[0\]\[1\]\[0\])
+data3d = [[["x1"],["x2"],["x3"]] ,
+           [["y1"],["y2"],["y3"]] ,
+           [["z1"],["z2"],["z3"]] ]
+print(data3d[0][1][0])
 ```
 
 
