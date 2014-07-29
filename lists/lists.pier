@@ -1,6 +1,6 @@
 !Lists
 
-You may think that since we got integers and floats and strings we have pretty much finished with Data types. However python is a huge programming language, there is ton of stuff available . Of course the goal of this book is not to teach you all of python just enough to get you started and working with blender so we will keep things as simple as possible. However there are still some types that even though they are not absolutely necessary for making a working program they are absolutely necessary for keeping code simple and short. One of those types is list.
+You may think that since we got integers and floats and strings we have pretty much finished with Data types. However python is a huge programming language, there is ton of stuff available . Of course the goal of this book is not to teach you all of python, just enough to get you started and working with blender so we will keep things as simple as possible. However there are still some types that even though they are not absolutely necessary for making a working program they are absolutely necessary for keeping code simple and short. One of those types is list.
 
 I can hear you wondering whether a variable can be assigned not one but several values. Lists do exactly that. Actually lists work very similarly to strings. Lets see how we assign a list to variable.
 
